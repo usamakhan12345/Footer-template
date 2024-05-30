@@ -1,0 +1,160 @@
+.footerContainer {
+  max-width: 100%;
+  width: 100%;
+  background-color: #000000;
+
+  color: #ffffff;
+  padding: 90px 30px;
+  /* position: absolute;
+  bottom: 0; */
+  margin-top: 150px;
+  position: relative;
+}
+h1 > span {
+  color: orange;
+}
+.footerList {
+  max-width: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  flex-wrap: wrap;
+  margin-top: 75px;
+}
+
+.footerList > ul {
+  list-style-type: none;
+}
+.footerList > ul > li {
+  /* padding: 12px 10px; */
+  margin-top: 10px;
+}
+ul::first-line {
+  color: orange;
+}
+.upper-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 100%;
+  flex: 0 0 100%;
+  margin-top: -155px;
+
+  position: relative;
+}
+.head-container {
+  max-width: 40%;
+  flex: 0 0 40%;
+}
+.subscribtionForm {
+  max-width: 60%;
+  flex: 0 0 60%;
+  padding: 24px;
+  background-color: #434343;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+
+  /* margin: 10px 0px;
+  margin-top: -215px; */
+  /* position: absolute; */
+  /* right: 0px; */
+}
+.subscribtionForm::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 65px solid #909090;
+  border-left: 48px solid transparent;
+  position: absolute;
+  top: 0;
+  left: -48px;
+}
+.subsBtn {
+  color: #fff;
+  font-size: 20px;
+  background-color: #434343;
+  padding: 20px 20px;
+  font-weight: 900;
+  max-width: 100%;
+  width: 100%;
+}
+
+.subs-input {
+  max-width: 100%;
+  width: 100%;
+  min-height: 70px;
+}
+
+.form-container {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px;
+  /* margin-top: 50px; */
+  position: relative;
+  top: 0;
+  right: 0;
+}
+
+.input-container {
+  max-width: 80%;
+  flex: 0 0 80%;
+}
+
+.btn-container {
+  max-width: 15%;
+  flex: 0 0 15%;
+}
+
+p {
+  font-size: 30px;
+  padding: 15px 0px;
+}
+
+.subscribtionForm > h1 {
+  color: orange;
+}
+.footer-heading {
+  margin-top: 30px;
+}
+
+.footerContainer::before {
+}
+
+@media screen and (max-width: 767px) {
+  .upper-head {
+    flex-direction: column-reverse;
+  }
+  .head-container {
+    max-width: 100%;
+    flex: 0 0 100%;
+    margin-top: 20px;
+  }
+  .subscribtionForm {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .footerList {
+    margin-top: 35px;
+  }
+  .form-container {
+    flex-direction: column;
+  }
+  .input-container {
+    max-width: 100%;
+  }
+  .subsBtn {
+    margin: 10px auto;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 10px 0px;
+  }
+  .btn-container {
+    max-width: 100%;
+  }
+}

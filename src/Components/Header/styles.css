@@ -1,0 +1,133 @@
+.headerContainer {
+  max-width: 100%;
+  background-color: #101010;
+  min-height: 100px;
+  position: relative;
+  border: 1px solid #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  /* padding: 1px 70px; */
+}
+
+.upperHeader {
+  max-width: 100%;
+  width: 100%;
+  min-height: 52px;
+  background-image: url("../../assets/headerImg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mailCon {
+  background-color: #1242e9;
+  padding: 8px 8px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.mailContainer {
+  display: flex;
+  align-items: center;
+}
+
+.email {
+  color: #ffffff;
+}
+
+.SociallistContainer {
+  display: flex;
+}
+.NamelistContainer {
+  margin-top: 42px;
+}
+
+.socialIcon {
+  background-color: #1242e9;
+  padding: 8px 8px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  width: 36px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.items-container {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.listContainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 50%;
+  width: 100%;
+  align-items: center;
+  margin-right: 2%;
+}
+.headerimgContainer {
+  max-width: 100%;
+  width: 100%;
+}
+.arrow-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -20px;
+  z-index: 4;
+  background-color: #fff;
+}
+.contact-us {
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  position: relative;
+}
+
+.contact-container {
+  background-color: #0f93e1;
+  padding: 14px 35px;
+  /* border-bottom-right-radius: 42px; */
+}
+.lower-header-container {
+  max-width: 77%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+  justify-content: space-between;
+  margin-left: 8%;
+}
+.lower-header-container {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  /* margin-left: 5%; */
+}
+
+.header-list {
+  list-style-type: none;
+}
+.header-list > li {
+  display: inline;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.contact-us::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 25px solid #0d2fa6;
+  border-left: 25px solid transparent;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
